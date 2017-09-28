@@ -31,10 +31,10 @@ namespace _11._5_Different_Numbers
             } else if (goFurther)
             {
                 int num1=start;
-                int num2=start+1;
-                int num3 = start + 2;
-                int num4 = start + 3;
-                int num5 = start + 4;
+                int num2=0;
+                int num3 = 0;
+                int num4 = 0;
+                int num5 = 0;
 
 
 
@@ -47,7 +47,7 @@ namespace _11._5_Different_Numbers
                             for (int t = 0; t < end; t++)
                                 for (int r = 0; r <= end; r++)
                                 {
-                                    if (i < u && u < y && y < t && t < r)
+                                    if ((i < u) && (u < y) && (y < t) && (t < r))
                                     {
                                         Console.WriteLine($"{i} {u} {y} {t} {r}");
                                         
